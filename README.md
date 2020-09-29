@@ -9,5 +9,5 @@ docker build -t mitty1293/centos7_updated .
 ```
 ## to run
 ```
-docker run -d -p 44900:22 --name 任意のコンテナ名 mitty1293/centos7_updated
+docker run -d -p <localport>:22 --name <container name> mitty1293/centos7_updated
 ```
